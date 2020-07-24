@@ -1,6 +1,6 @@
 {
   "homepage": "http://rdgbrezolin.github.io/portfolio",
-  "name": "portfolio-brezolin",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
