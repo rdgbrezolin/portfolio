@@ -1,0 +1,48 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  width: 100%;
+  background-image: linear-gradient(#323232, #303131);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.nav-logo {
+  background-color: #f2f2f2;
+  width: 250px;
+  height: 47px;
+
+}
+
+.img-logo {
+  width: 63px;
+  height: 40px;
+  margin-top: 3px;
+  margin-left: 95px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  padding-right: 50px;
+}
+
+li a {
+  display: block;
+  padding: 15px 40px;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+li a:hover {
+  background-color: #00CB94;
+  background-image: linear-gradient(#07dfa5, #00cb94);
+}

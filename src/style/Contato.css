@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.body-contato {
+  width: 100%;
+  min-height: 110vh;
+  background-color: #252934;
+}
+
+.body-triang {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: auto;
+}
+
+.triang1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+  border-left: 400px solid transparent;
+  border-right: 400px solid transparent;
+  border-top: 100px solid #dbdbdb;
+}
+
+.h1-contato {
+  margin: 0 auto;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  width: 170px;
+  border-bottom: 5px solid white;
+  line-height: 60px;
+  text-align: center;
+}
+
+.body-input {
+  width: 500px;
+  height: 230px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  height: 38px;
+  margin-top: 6px;
+  background-color: black;
+  border: 0;
+  padding-left: 15px;
+  font-size: 16px;
+  color: white;
+}
+
+textarea {
+  background-color: black;
+  border: 0;
+  padding-left: 15px;
+  font-size: 16px;
+  color: white;
+  margin-top: 6px;
+  padding-top: 8px;
+  max-width: 97%;
+}
+
+h3 {
+  color: #04c2c9;
+  font-family: Raleway, Arial;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.body-links {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 160px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icons {
+  color: #D8E4E9;
+}
+
+.icons:hover {
+  color: #27acb1;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.btn-email {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 25%;
+  padding: 10px 25px;
+  background-color: #252934;
+  border: 1px solid #04c2c9;
+  color: #04c2c9;
+  font-size: 15px;
+}
+
+.btn-email:hover {
+  background-color: #04c2c98f;
+  cursor: pointer;
+  transition: ease 1s;
+  color: white;
+}
