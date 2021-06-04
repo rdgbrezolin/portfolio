@@ -30,15 +30,18 @@
 }
 
 .foto-perfil {
-  background-color: aquamarine;
   width: 60%;
+}
+
+.foto-perfil img {
+  width: 90%;
 }
 
 .texto-perfil {
   font-family: 'Raleway', cursive;
   font-size: 18px;
   line-height: 27px;
-  margin: 0 20px;
+  margin: 4% 20px;
   letter-spacing: 2px;
 }
 

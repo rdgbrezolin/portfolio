@@ -3,15 +3,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faFighterJet, faLightbulb, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import '../style/Sobre.css';
 import { faBootstrap, faCss3Alt, faGithub, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import imageProfile from '../image/profile.jpeg';
 
 function Sobre() {
   return (
     <div className="body-sobre" id="about">
       <h1 className="h1-sobre">SOBRE</h1>
       <section className="body-perfil">
-        <article className="foto-perfil"></article>
+        <article className="foto-perfil">
+          <img src={imageProfile} />
+        </article>
         <article className="texto-perfil">Bem vindo ao meu portfólio. Aqui você poderá ver um pouco do meu trabalho.
-        Tenho 25 anos, sou programador Front-end, estudante de Back-end e UX/UI e apaixonado por tecnologia.</article>
+        Tenho 26 anos, sou programador Full-stack, quase engenheiro de automação e apaixonado por tecnologia.<br /><br />
+        Stacks nas quais trabalho atualmente: React e Node.
+        </article>
       </section>
       <section className="container-figuras">
         <article className="figuras">

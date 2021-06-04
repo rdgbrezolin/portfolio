@@ -10,7 +10,7 @@ function Home() {
        <span className="txt1">RODRIGOBREZOLIN</span>
        <span className="txt2">FRONT-END</span>
        <span className="txt3">DEVELOPER</span>
-       <span className="txt4">HTML - CSS - JS - REACTJS</span>
+       <span className="txt4">JS - REACTJS - NODEJS</span>
        <button className="btn-home"><a href="#about">ME CONHEÇA MELHOR.</a></button>
      </section>
     </div>

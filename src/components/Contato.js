@@ -20,11 +20,11 @@ function Contato() {
         </form>
       </section>
       <section className="body-links">
-      <a href="#" target="_blank"><FontAwesomeIcon icon={faGithub} size="3x" className="icons" /></a>
-      <FontAwesomeIcon icon={faLinkedin} size="3x" className="icons"/>
-      <FontAwesomeIcon icon={faInstagram} size="3x" className="icons"/>
-      <FontAwesomeIcon icon={faFacebook} size="3x" className="icons"/>
-      <FontAwesomeIcon icon={faWhatsapp} size="3x" className="icons"/>
+      <a href="https://github.com/rdgbrezolin" target="_blank"><FontAwesomeIcon icon={faGithub} size="3x" className="icons" /></a>
+      <a href="https://www.linkedin.com/in/rodrigobrezolin" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="3x" className="icons"/></a>
+      <a href="https://www.instagram.com/rdgbrezolin" target="_blank"><FontAwesomeIcon icon={faInstagram} size="3x" className="icons"/></a>
+      <a href="https://www.facebook.com/rodrigoknx" target="_blank"><FontAwesomeIcon icon={faFacebook} size="3x" className="icons"/></a>
+      <a href="https://api.whatsapp.com/send?phone=5512982399787" target="_blank"><FontAwesomeIcon icon={faWhatsapp} size="3x" className="icons"/></a>
       </section>
     </div>
   );
