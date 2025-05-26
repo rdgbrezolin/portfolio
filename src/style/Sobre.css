@@ -31,6 +31,9 @@
 
 .foto-perfil {
   width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .foto-perfil img {
@@ -111,4 +114,87 @@
   font-weight: 500;
   letter-spacing: 0.4px;
   text-align: center;
+}
+
+/* Media Queries para Responsividade */
+@media screen and (max-width: 1024px) {
+  .body-perfil {
+    width: 85%;
+  }
+
+  .container-figuras {
+    width: 85%;
+    flex-wrap: wrap;
+  }
+
+  .figuras {
+    margin-bottom: 20px;
+  }
+
+  .body-habilidades {
+    width: 85%;
+    flex-wrap: wrap;
+  }
+
+  .icons-sobre {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body-perfil {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foto-perfil {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .texto-perfil {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .container-figuras {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .figuras {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .body-habilidades {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons-sobre {
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .h1-sobre {
+    font-size: 24px;
+    width: 90px;
+  }
+
+  .texto-perfil {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .figuras h2 {
+    font-size: 20px;
+  }
+
+  .figuras p {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }

@@ -39,7 +39,7 @@
 }
 
 .txt4 {
-  font-size: 3.7em;
+  font-size: 3.3em;
   color: #375AE4;
   font-weight: 500;
   letter-spacing: -1.5px;
@@ -89,4 +89,69 @@
   cursor: pointer;
   transition: ease 0.5s;
   color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .text-home {
+    width: 90%;
+    padding-top: 15%;
+  }
+
+  .txt1 {
+    font-size: 3.5em;
+  }
+
+  .txt2, .txt3 {
+    font-size: 6em;
+  }
+
+  .txt4 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-home {
+    padding-top: 20%;
+  }
+
+  .txt1 {
+    font-size: 3em;
+  }
+
+  .txt2, .txt3 {
+    font-size: 5em;
+  }
+
+  .txt4 {
+    font-size: 2.5em;
+  }
+
+  .btn-home {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text-home {
+    padding-top: 25%;
+  }
+
+  .txt1 {
+    font-size: 2.5em;
+  }
+
+  .txt2, .txt3 {
+    font-size: 4em;
+  }
+
+  .txt4 {
+    font-size: 2em;
+  }
+
+  .btn-home {
+    width: 90%;
+    padding: 15px 20px;
+    font-size: 14px;
+  }
 }

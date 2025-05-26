@@ -92,3 +92,48 @@
   background-position: center;
   background-size: cover;
 }
+
+@media screen and (max-width: 1024px) {
+  .body-cards {
+    width: 90%;
+  }
+
+  .card-style {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body-cards {
+    width: 95%;
+  }
+
+  .card-style {
+    width: 100%;
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  .h1-projetos {
+    font-size: 24px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body-cards {
+    margin-top: 30px;
+  }
+
+  .card-style {
+    height: 250px;
+    padding-top: 40px;
+    font-size: 14px;
+  }
+
+  .h1-projetos {
+    font-size: 20px;
+    width: 130px;
+  }
+}

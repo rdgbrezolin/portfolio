@@ -116,3 +116,67 @@ h3 {
   transition: ease 1s;
   color: white;
 }
+
+@media screen and (max-width: 1024px) {
+  .body-input {
+    width: 80%;
+  }
+
+  .body-links {
+    width: 50%;
+  }
+
+  .triang1 {
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body-input {
+    width: 90%;
+  }
+
+  .body-links {
+    width: 70%;
+  }
+
+  .triang1 {
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+  }
+
+  .btn-email {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body-input {
+    width: 95%;
+  }
+
+  .body-links {
+    width: 90%;
+  }
+
+  .triang1 {
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 80px solid #dbdbdb;
+  }
+
+  .h1-contato {
+    font-size: 24px;
+    width: 150px;
+  }
+
+  .btn-email {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .form input, textarea {
+    font-size: 14px;
+  }
+}

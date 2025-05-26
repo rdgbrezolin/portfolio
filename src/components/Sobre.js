@@ -1,9 +1,21 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faFighterJet, faLightbulb, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
-import '../style/Sobre.css';
-import { faBootstrap, faCss3Alt, faGithub, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
-import imageProfile from '../image/profile.jpeg';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCode,
+  faFighterJet,
+  faLightbulb,
+  faMobileAlt,
+} from "@fortawesome/free-solid-svg-icons";
+import "../style/Sobre.css";
+import {
+  faBootstrap,
+  faCss3Alt,
+  faGithub,
+  faHtml5,
+  faJsSquare,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
+import imageProfile from "../image/Avatar.png";
 
 function Sobre() {
   return (
@@ -13,9 +25,16 @@ function Sobre() {
         <article className="foto-perfil">
           <img src={imageProfile} />
         </article>
-        <article className="texto-perfil">Bem vindo ao meu portfólio. Aqui você poderá ver um pouco do meu trabalho.
-        Tenho 26 anos, sou programador Full-stack, quase engenheiro de automação e apaixonado por tecnologia.<br /><br />
-        Stacks nas quais trabalho atualmente: React e Node.
+        <article className="texto-perfil">
+          Apaixonado por tecnologia, atuo na área há mais de 5 anos,
+          desenvolvendo soluções e melhorando o desempenho de aplicações.
+          Dedicado a desenvolver soluções robustas e inovadoras, com foco em
+          performance e experiência do usuário.
+          <br />
+          <br />
+          - Engenheiro de controle e automação pela Universidade Federal de
+          Itajubá.
+          <br />- Pós graduando em Engenharia de Software pela USP.
         </article>
       </section>
       <section className="container-figuras">
@@ -35,18 +54,18 @@ function Sobre() {
           <p>Layout se adapta à qualquer dispositivo, grande ou pequeno.</p>
         </article>
         <article className="figuras">
-        <FontAwesomeIcon icon={faCode} color="white" size="3x" />
+          <FontAwesomeIcon icon={faCode} color="white" size="3x" />
           <h2>Código Limpo</h2>
           <p>Código desenvolvido com as boas práticas de programação.</p>
         </article>
       </section>
       <section className="body-habilidades">
-      <FontAwesomeIcon icon={faReact} size="4x" className="icons-sobre" />
-      <FontAwesomeIcon icon={faCss3Alt} size="4x" className="icons-sobre" />
-      <FontAwesomeIcon icon={faHtml5} size="4x" className="icons-sobre" />
-      <FontAwesomeIcon icon={faJsSquare} size="4x" className="icons-sobre" />
-      <FontAwesomeIcon icon={faBootstrap} size="4x" className="icons-sobre" />
-      <FontAwesomeIcon icon={faGithub} size="4x" className="icons-sobre" />
+        <FontAwesomeIcon icon={faReact} size="4x" className="icons-sobre" />
+        <FontAwesomeIcon icon={faCss3Alt} size="4x" className="icons-sobre" />
+        <FontAwesomeIcon icon={faHtml5} size="4x" className="icons-sobre" />
+        <FontAwesomeIcon icon={faJsSquare} size="4x" className="icons-sobre" />
+        <FontAwesomeIcon icon={faBootstrap} size="4x" className="icons-sobre" />
+        <FontAwesomeIcon icon={faGithub} size="4x" className="icons-sobre" />
       </section>
     </div>
   );
