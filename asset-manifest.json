@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.600b5e13.chunk.css",
-    "main.js": "/portfolio/static/js/main.d18142cd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d18142cd.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.80459bd5.chunk.css",
+    "main.js": "/portfolio/static/js/main.6c93e04e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6c93e04e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.ea96fa96.chunk.js": "/portfolio/static/js/2.ea96fa96.chunk.js",
-    "static/js/2.ea96fa96.chunk.js.map": "/portfolio/static/js/2.ea96fa96.chunk.js.map",
+    "static/js/2.a1719438.chunk.js": "/portfolio/static/js/2.a1719438.chunk.js",
+    "static/js/2.a1719438.chunk.js.map": "/portfolio/static/js/2.a1719438.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1df1f461b1f9add99c0807c574a05f18.js": "/portfolio/precache-manifest.1df1f461b1f9add99c0807c574a05f18.js",
+    "precache-manifest.4bb4ef867492506e1de43fe01c26e210.js": "/portfolio/precache-manifest.4bb4ef867492506e1de43fe01c26e210.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.600b5e13.chunk.css.map": "/portfolio/static/css/main.600b5e13.chunk.css.map",
-    "static/js/2.ea96fa96.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ea96fa96.chunk.js.LICENSE.txt",
-    "static/media/Projetos.css": "/portfolio/static/media/trivialogin.bb12f65c.png",
-    "static/media/profile.jpeg": "/portfolio/static/media/profile.131d1347.jpeg"
+    "static/css/main.80459bd5.chunk.css.map": "/portfolio/static/css/main.80459bd5.chunk.css.map",
+    "static/js/2.a1719438.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a1719438.chunk.js.LICENSE.txt",
+    "static/media/Avatar.png": "/portfolio/static/media/Avatar.36abb698.png",
+    "static/media/logonew.png": "/portfolio/static/media/logonew.78739a9d.png",
+    "static/media/Projetos.css": "/portfolio/static/media/trivialogin.bb12f65c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.ea96fa96.chunk.js",
-    "static/css/main.600b5e13.chunk.css",
-    "static/js/main.d18142cd.chunk.js"
+    "static/js/2.a1719438.chunk.js",
+    "static/css/main.80459bd5.chunk.css",
+    "static/js/main.6c93e04e.chunk.js"
   ]
 }
