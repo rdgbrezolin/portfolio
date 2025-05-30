@@ -1,15 +1,43 @@
-import React from 'react';
-import ReactCardCarousel from 'react-card-carousel';
-import '../style/Projetos.css';
+import React from "react";
+import ReactCardCarousel from "react-card-carousel";
+import "../style/Projetos.css";
 
 function Projetos() {
-
   return (
-    <div className="body-projetos" id="projects">
-
-      <h1 className="h1-projetos">PROJETOS</h1>
-      <div className="body-cards">
-        <ReactCardCarousel autoplay={ true } autoplay_speed={ 3000 }>
+    <div className="body-projetos" id="projects" style={{ maxHeight: "600px" }}>
+      <h1 className="h1-projetos">CURRÍCULO</h1>
+      <div
+        className="body-cards"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: "1rem",
+          minHeight: "200px",
+        }}
+      >
+        <button
+          className="btn-home"
+          style={{ maxWidth: "300px", margin: "0 auto", width: "100%" }}
+        >
+          <a
+            href="/portfolio/curriculo_rodrigo.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            VISUALIZAR
+          </a>
+        </button>
+        <button
+          className="btn-home"
+          style={{ maxWidth: "300px", margin: "0 auto", width: "100%" }}
+        >
+          <a href="/portfolio/curriculo_rodrigo.pdf" download>
+            DOWNLOAD - 2025
+          </a>
+        </button>
+        {/* <ReactCardCarousel autoplay={ true } autoplay_speed={ 3000 }>
           <div className="card-style first">
           </div>
           <div className="card-style second">
@@ -26,7 +54,7 @@ function Projetos() {
           </div>
           <div className="card-style eighth">
           </div>
-        </ReactCardCarousel>
+        </ReactCardCarousel> */}
       </div>
     </div>
   );
